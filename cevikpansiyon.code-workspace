@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../cevikpansiyon"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "travelix-hotel"
+  }
+}
