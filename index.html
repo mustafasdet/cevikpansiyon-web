@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Travelix-Cevik Pansiyon</title>
+    <!--Font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="icon" href="./images/pansiyon-fav.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./main.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <img src="./images/pansiyon-fav.png" alt="Cevik Pansiyon logo" />
+                    <!-- add a logo above!!! -->
+                </a>
+                <div class="hamburger-menu">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <ul class="nav-list">
+                    <!-- menu items -->
+                    <li class="nav-item">
+                        <!-- to direct home page -->
+                        <a href="index.html" class="nav-link">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Hakkında</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Çevik Pansiyon</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Çiftehan</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">İletişim</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="container">
+                <div class="main-heading">
+                    <h1 class="title">Çiftehan</h1>
+                    <h2 class="sub-title">Termal Kaplıcalar Diyarı</h2>
+                </div>
+                <a href="#" class="btn btn-gradient">Şimdi Keşfet
+                    <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                </a>
+            </div>
+        </div>
+
+        <!-- booking no need for us so i just add the section in case I need it. 
+        2nd video 14'40"
+        (https://www.youtube.com/watch?v=iPLHMmyA3DM&list=PLu2kVjdzlY91fYpgiW44tZnMNvAx8Pra6&index=2) -->
+        <!-- 
+    <section class="booking">
+        <div class="container">
+          <form action="" class="form">
+            <div class="input-group">
+              <label for="destination" class="input">Destination</label>
+              <input type="text" class="input" id="destination" />
+            </div>
+            <div class="input-group">
+                <label for="check-in" class="input">Check-in</label>
+                <input type="date" class="input" id="check-in" />
+            </div>
+            <div class="input-group">
+                <label for="check-out" class="input">Check-out</label>
+                <input type="date" class="input" id="check-out" />
+            </div>
+          </form>
+        </div>
+    </section> 
+    -->
+
+        <section class="hotels">
+            <div class="container">
+                <h5 class="section-head">
+                    <span class="heading">Çiftehan'da Konaklama</span>
+                    <span class="sub-heading">Çiftehan Pansiyon ve Otelleri</span>
+                </h5>
+                <div class="grid">
+                    <div class="grid-item featured-hotels">
+                        <img src="./images/hotel_astro_resort.jpg" alt="" class="hotel-image" />
+                        <h5 class="hotel-name">Çevik Pansiyon</h5>
+                        <span class="hotel-price">200 TL'den başlayan fiyatlarla</span>
+                        <span class="hotel-note">
+                            <h5>
+                                Pansiyon Fiyatları kişibaşı değil, <b>ODA fiyatıdır.</b>
+                            </h5>
+                        </span>
+                         
+                        <div class="hotel-rating">
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <!-- <i class="fas fa-star-half rating"></i> -->
+                        </div>
+                        <a href="#" class="btn btn-gradient">Rezervasyon Yap
+                            <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                        </a>
+                    </div>
+
+                    <div class="grid-item featured-hotels">
+                        <img src="./images/hotel_astro_resort.jpg" alt="" class="hotel-image" />
+                        <h5 class="hotel-name">Çiftehan Pansiyonları</h5>
+                        <span class="hotel-price"> TL'den başlayan fiyatlarla</span>
+                        <span class="hotel-note">
+                            <h5>
+                                Pansiyon Fiyatları kişibaşı değil, <b>ODA fiyatıdır.</b>
+                            </h5>
+                        </span>
+                         
+                        <div class="hotel-rating">
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star-half rating"></i>
+                            <!-- <i class="fas fa-star-half rating"></i> -->
+                        </div>
+                        <a href="#" class="btn btn-gradient">Siteye git
+                            <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                        </a>
+                    </div>
+                    <div class="grid-item featured-hotels">
+                        <img src="./images/hotel_the_enchanted_garden.jpg" alt="" class="hotel-image" />
+                        <h5 class="hotel-name">Çelikhanım Otel</h5>
+                        <span class="hotel-price"> TL'den başlayan fiyatlarla</span>
+                        <span class="hotel-note">
+                            <h5>Otel fiyatları <b>kişi başıdır</b></h5>
+                        </span> 
+                        <div class="hotel-rating">
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <!-- <i class="fas fa-star-half rating"></i> -->
+                        </div>
+                        <a href="#" class="btn btn-gradient">Siteye git
+                            <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                        </a>
+                    </div>
+                    <div class="grid-item featured-hotels">
+                        <img src="./images/hotel_the_paradise.jpg" alt="" class="hotel-image" />
+                        <h5 class="hotel-name">Çiftehan Termal Otel</h5>
+                        <span class="hotel-price"> TL'den başlayan fiyatlarla</span>
+                        <span class="hotel-note">
+                            <h5>Otel fiyatları <b>kişi başıdır</b></h5>
+                        </span>
+                         
+                        <div class="hotel-rating">
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <!-- <i class="fas fa-star-half rating"></i> -->
+                        </div>
+                        <a href="#" class="btn btn-gradient">Siteye git
+                            <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                        </a>
+                    </div>
+                    <div class="grid-item featured-hotels">
+                        <img src="./images/hotel_the_paradise.jpg" alt="" class="hotel-image" />
+                        <h5 class="hotel-name">Sarayhan Termal Otel</h5>
+                        <span class="hotel-price"> TL'den başlayan fiyatlarla</span>
+                        <span class="hotel-note">
+                            <h5>Otel fiyatları <b>kişi başıdır</b></h5>
+                        </span>
+                         
+                        <div class="hotel-rating">
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <!-- <i class="fas fa-star-half rating"></i> -->
+                        </div>
+                        <a href="#" class="btn btn-gradient">Siteye git
+                            <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cevik-pansiyon">
+            <div class="container">
+                <h2 class="section-head-cevik">
+                    <span class="heading">Çevik Pansiyon</span>
+                    <span class="sub-heading">Çiftehan Çevik Pansiyon'da Konaklama Olanakları</span>
+                </h2>
+
+                <div class="grid">
+                    <div class="grid-item rooms1">
+                        <!-- apart oda fotosu -->
+                        <img src="./images/room_1.jpg" alt="" class="hotel-image" />
+                        <h4 class="hotel-name" style="font-size: 20px;">Çevik Pansiyon</h4>
+                        <h5 class="hotel-name"> Apart Odalar</h5>
+                        <span class="hotel-price">200 TL'den başlayan fiyatlarla</span>
+                        <span class="hotel-note">
+                            <h5>
+                                Pansiyon Fiyatları kişibaşı değil, <b>ODA fiyatıdır.</b>
+                            </h5>
+                        </span>
+
+                        <a href="#" class="btn btn-gradient">Görseller ve detaylar
+                            <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                        </a>
+                    </div>
+
+
+                    <div class="grid-item rooms1">
+                        <!-- 1+1 fotosu -->
+                        <img src="./images/room_2.jpg" class="hotel-image" />
+                        <h4 class="hotel-name" style="font-size: 20px;">Çevik Pansiyon</h4>
+                        <h5 class="hotel-name"> 1+1 Odalar</h5>
+                        <span class="hotel-price">300 TL'den başlayan fiyatlarla</span>
+                        <span class="hotel-note">
+                            <h5>
+                                Pansiyon Fiyatları kişibaşı değil, <b>ODA fiyatıdır.</b>
+                            </h5>
+                        </span>
+
+                        <a href="#" class="btn btn-gradient">Görseller ve detaylar
+                            <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                        </a>
+                    </div>
+
+
+                    <div class="grid-item rooms1">
+                        <!-- devremulk fotosu -->
+                        <img src="./images/room_3.jpg" alt="" class="hotel-image" />
+                        <h4 class="hotel-name" style="font-size: 17px;">Çevik Pansiyon güvencesiyle</h4>
+                        <h5 class="hotel-name" style="font-size: 22px;">Çiftehan Termal Devremülk</h5>
+                        <span class="hotel-price">17 Nisan-01 Mayıs 2023 arasında</span>
+                        <span class="hotel-note">
+                            <h5>
+                                Çiftehan Termal fiyatları kişibaşı değil, <b>ODA fiyatıdır.</b>
+                            </h5>
+                        </span>
+
+                        <a href="#" class="btn btn-gradient">Görseller ve Detaylar
+                            <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                        </a>
+                    </div>
+
+                </div>
+        </section>
+
+        <section class="rooms">
+            <div class="container">
+                <h5 class="section-head">
+                    <span class="heading">Çevik Pansiyon</span>
+                    <span class="sub-heading">Oda Çeşitleri</span>
+                </h5>
+
+                <div class="grid rooms-grid">
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img src="./images/room_1.jpg" alt="" class="room-image">
+                            <h5 class="room-name">Apart odalar</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">200 TL
+                                <span class="per-night">'den Oda Fiyatı</span>
+                            </span>
+                            <p class="paragraph">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur ipsa officiis ullam
+                                facilis, iste possimus architecto ea nisi deserunt qui!
+                            </p>
+                            <a href="#" class="btn rooms-btn">Rezervasyon yapın &rarr;</a>
+
+                        </div>
+                    </div>
+                    
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img src="./images/room_2.jpg" alt="" class="room-image">
+                            <h5 class="room-name">1+1 odalar</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">300 TL
+                                <span class="per-night">'den Oda Fiyatı</span>
+                            </span>
+                            <p class="paragraph">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur ipsa officiis ullam
+                                facilis, iste possimus architecto ea nisi deserunt qui!
+                            </p>
+                            <a href="#" class="btn rooms-btn">Rezervasyon yapın &rarr;</a>
+
+                        </div>
+                    </div>
+
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img src="./images/room_3.jpg" alt="" class="room-image">
+                            <h5 class="room-name">Termal Devremulk</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">900 TL
+                                <span class="per-night">'den Oda Fiyatı</span>
+                            </span>
+                            <p class="paragraph">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur ipsa officiis ullam
+                                facilis, iste possimus architecto ea nisi deserunt qui!
+                            </p>
+                            <a href="#" class="btn rooms-btn">Rezervasyon yapın &rarr;</a>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- termal devremulk buraya eklenebilir - offer gibi 
+video 3: https://www.youtube.com/watch?v=LexaJ-PLrpY&list=PLu2kVjdzlY91fYpgiW44tZnMNvAx8Pra6&index=3
+dk: 23-->
+
+            <section class="contact">
+                <div class="container">
+                    <h5 class="section-head">
+                        <span class="heading">İletişim</span>
+                        <span class="sub-heading">Bize Ulaşın</span>
+                    </h5>
+                    <div class="phone">
+                        <h3>Rezervasyon ve bilgi için arayınız:</h3>
+                        <h4>+90 (505) 556 1944</h4>
+                        
+                    </div>
+                    
+                        
+                    
+                    <div class="contact-content">
+                        <div class="traveler-wrap">
+                            <img src="./images/traveler.png" alt="">
+                        </div>
+                        <form action="" class="form contact-form">
+                            <div class="input-group-wrap">
+                                <div class="input-group">
+                                    <input type="text" class="input" placeholder="Name" required>
+                                    <span class="bar"></span>
+                                </div>
+                                <div class="input-group">
+                                    <input type="email" class="input" placeholder="E-mail" required>
+                                    <span class="bar"></span>
+                                </div>
+                                
+                                <div class="input-group">
+                                    <input type="text" class="input" placeholder="Subject" required>
+                                    <span class="bar"></span>
+                                </div>
+                                <div class="input-group">
+                                    <textarea class="input" cols="30" rows="8"  placeholder="Mesajınızı yazınız" required></textarea>
+                                    <span class="bar"></span>
+                                </div>
+                            <button type="submit" class="btn form-btn btn-purple">Mesaj Gönder
+                                <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                            </button>
+                            </div>
+                            <!-- dk 27:55 - send message is white??? - -->
+                        </form>
+                    </div>
+                </div>
+            </section>   
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-content-brand">
+                    <a href="index.html" class="logo">
+                        <img class= "logo-image" src="./images/pansiyon-fav.png" alt="Ciftehan Cevik Pansiyon logosu">
+                    </a>
+                    <div class="paragraph">
+                        Lorem ipsum dolor sit amet consectetur 
+                    </div>
+                </div>
+                <div class="social-media-wrap">
+                    <h4 class="footer-heading">Follow us</h4>
+                    <div class="social-media">
+                        <a href="#" class="sm-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="sm-link"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#" class="sm-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="sm-link"><i class="fab fa-pinterest"></i></a>
+                        <a href="#" class="sm-link"><i class="fab fa-tripadvisor"></i></a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
