@@ -594,11 +594,82 @@ color: var(--dark-color)
     margin: auto;
 }
 
+/* ulasım section syles */
+.hero-ulasim{
+    width: 100%;
+    height: 100vh;
+    background: url("./images/Çevik-Pansiyon.jpeg") center no-repeat;
+    background-size:cover;
+    /* background-color: black;
+    background-blend-mode: darken; */
+    filter: brightness(60%);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* we have little text. If more text we may need to change this section */
+    position: relative;
+    z-index: 0;
+}
+
+.ulasim h1 {
+    color: black;
+    font-size: 4rem;
+    /* background-color: #8f50fb; */
+    padding: 1rem;
+    text-align: center;
+}
+
+.ulasim h2 {
+    color: black;
+    font-size: 3rem;
+    /* background-color: #8f50fb; */
+    text-align: center;
+    padding: 1rem;
+}
+
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map h3{
+    color: #020508;
+    font-size: 2.5rem;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    padding: 1rem;
+    font-style: italic;
+}
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    padding-top: 10%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* media queries */
 
 @media screen and (min-width: 768px) {
-    
+ 
     /* header section styles */
     .header{
         height: 10rem;
@@ -659,8 +730,6 @@ margin-left: 1.5rem;
 
 
 
-
-
 /* footer sections styles */
 .footer{
     overflow-x: hidden;
@@ -689,11 +758,27 @@ display: flex;
     margin-left: 2.5rem;
 }
 
+.ulasim h1 {
+    font-size: 6rem;
+    /* padding: 1rem; */
+}
+
+.ulasim h2 {
+    font-size: 4rem;
+}
+
+.google-map h3{
+    font-size: 3rem;
+}
+.google-map iframe{
+    padding-top: 7%;
+}
+
 }
 
 
 @media screen and (min-width: 1000px) {
-
+   
 section:not(.booking){
 padding: 10rem 0;
 }
@@ -771,4 +856,21 @@ margin-left: 0rem;
 }
 
 
+.ulasim h1 {
+    font-size: 8rem;
 }
+
+.ulasim h2 {
+    font-size: 6rem;
+}
+
+.google-map h3{
+    font-size: 5rem;
+}
+
+.google-map iframe{
+    padding-top: 5%;
+}
+
+}
+
