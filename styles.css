@@ -457,7 +457,7 @@ margin-left: 2.5rem;
 /* Contact section styles */
 .phone{
     text-align: center;
-    background-color: var(--yellow-solid);
+    background-color: var(--purple-transparent);
     width: 100%;
     margin-bottom: 3rem;
     padding-bottom: 1rem;
@@ -465,10 +465,12 @@ margin-left: 2.5rem;
 }
 
 .phone h3{
+    color: black;
     font-size: 2rem;
-    font-weight: lighter
+    font-weight: normal;
 }
 .phone h4{
+    color: black;
     font-size: 3rem;
     font-weight: bolder;
     font-style: oblique;
