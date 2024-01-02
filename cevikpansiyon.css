@@ -1,0 +1,58 @@
+.cevikpansiyon-nav .grid {
+    /* grid-template-columns: repeat(auto-fit, minmax(110rem, 1fr)) no-repeat center; */
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.5rem;
+    display: grid;
+    width: 100%;
+    justify-items: center;
+}
+
+.cevikpansiyon-info{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-style: normal;
+    padding: 2rem;
+    margin-bottom: 10px;
+}
+
+.cevikpansiyon-nav .rooms1 {
+    width: 100%;
+
+}
+
+.cevikpansiyon-nav .hotel-image {
+    width: 100%;
+}
+
+.cevikpansiyon-nav h2{
+    font-size: 40px;
+}
+
+
+@media screen and (max-width: 767px) {
+  
+    .cevikpansiyon-nav h2{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+ 
+    .cevikpansiyon-nav .grid {
+    grid-template-columns: 1fr;
+    }
+ }
+
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+   
+    .cevikpansiyon-nav h2{
+        margin-top: 60px;
+    }
+
+}
+
+@media screen and (min-width: 1101px) {
+  
+    .cevikpansiyon-nav h2{
+        margin-top: 0px;
+    }
+ 
+ }
