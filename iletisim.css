@@ -21,7 +21,7 @@
 .iletisim-grid {
   display: grid;
   /* grid-template-columns: 1fr 1fr; */
-  grid-template-columns: repeat(auto-fit, minmax(42rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(38rem, 1fr));
   grid-gap: 1.5rem;
 }
 
@@ -162,7 +162,7 @@
 
 .ulasim-alternatifi-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(42rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(38rem, 1fr));
   /* grid-template-columns: 1fr 1fr; */
   grid-gap: 0.5rem;
 }
@@ -172,15 +172,19 @@
   color: rgb(0, 0, 0);
   font-size: 18px;
   padding: 10px;
+  padding-right: 10px;
   max-width: 1000px;
+  margin-left: 5px;
+  margin-right: 10px;
+  
   /* width: 65%; */
   /* border: 5px solid rgb(255, 0, 0); */
 }
 
 .cevik-pansiyon-google-map h4 {
   color: darkmagenta;
-  justify-content: center;
-  text-align: center;
+  /* justify-content: center; */
+  /* text-align: center; */
   font-size: 22px;
   margin-bottom: 10px;
 }
@@ -213,7 +217,7 @@
 
 .google-map-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(42rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(38rem, 1fr));
   /* grid-template-columns: 1fr 1fr; */
   grid-gap: 1.5rem;
   /* margin-left: 10px; */
@@ -226,10 +230,12 @@
   border: 2px rgb(74, 74, 74) solid;
   border-radius: 5px;
   margin-left: 5px;
+  margin-right: 10px;
 }
 
 .google-iframe iframe {
   width: 100%;
+
   /* height: 100%; */
 }
 .ulasim h3 {
@@ -266,5 +272,50 @@
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
 }
 
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  .ulasim .title,
+  .ulasim .sub-title {
+    width: 95%;
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+
+ 
+  .ulasim h3 {
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+
+  .google-map h3 {
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+
+  .iletisim-info-child-grid {
+    justify-items: center;
+  }
+
+  .ulasim-alternatifi-info,
+  .cevik-pansiyon-google-map {
+   margin-right: 20px;
+  }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+  .google-map h3 {
+    font-size: 3rem;
+  }
+}
+
 @media screen and (min-width: 1100px) {
+  .cevik-pansiyon-iletisim .heading {
+    margin-top: 0px;
+  }
+
+  .google-map h3 {
+    font-size: 3rem;
+  }
 }

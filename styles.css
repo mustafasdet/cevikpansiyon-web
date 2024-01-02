@@ -753,9 +753,10 @@ Check the CSS for practice purposes!!! */
 /* All media queries are in this "stles.css" file for now.
 We may change this structure later. */
 @media screen and (max-width: 380px) {
+
 }
 
-@media screen and (min-width: 380px) and (max-width: 767px) {
+@media screen and (min-width: 300px) and (max-width: 767px) {
   .title {
     font-size: 5rem;
     padding-left: 15px;
@@ -766,49 +767,11 @@ We may change this structure later. */
     font-size: 2rem;
     /* width: 65%; */
   }
+ 
 
-  .ulasim .title,
-  .ulasim .sub-title {
-    width: 100%;
-  }
-
-  .ulasim h3 {
-    margin-left: 15px;
-    margin-top: 0;
-  }
-
-  .google-map h3 {
-    text-align: left;
-    margin-left: 40px;
-  }
-
-  .google-iframe {
-    /* width: 405px; */
-    width: 65%;
-  }
-  .google-iframe iframe {
-    width: 100%;
-  }
-
-  
-  .iletisim-info-child-grid {
-    justify-items: center;
-  }
-
-  .ulasim .ulasim-alternatifi-info {
-    /* margin-top: -30px; */
-    margin-bottom: 30px;
-    padding: 0;
-  }
-  .ulasim-alternatifi-info,
-  .cevik-pansiyon-google-map {
-    width: 65%;
-    margin-bottom: 30px;
-  }
-
-  .ulasim-alternatifi-image {
-    width: 65%;
-  }
+  .main-heading {
+    margin-bottom: 5px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1100px) {
@@ -839,10 +802,6 @@ We may change this structure later. */
 
   .sub-heading {
     font-size: 30px;
-  }
-
-  .iletisim-grid {
-    /* grid-template-columns: 1fr; */
   }
 
   /* room styles- !!! I have aded !!! */
@@ -903,9 +862,7 @@ We may change this structure later. */
     margin-left: 2.5rem;
   }
 
-  .google-map h3 {
-    font-size: 3rem;
-  }
+ 
 }
 
 
@@ -968,9 +925,7 @@ We may change this structure later. */
     color: var(--yellow-solid);
   }
 
-  .cevik-pansiyon-iletisim .heading {
-    margin-top: 0px;
-    }
+  
 
   .phone h3 {
     font-size: 3.1rem;
@@ -990,7 +945,5 @@ We may change this structure later. */
     width: 80%;
   }
 
-  .google-map h3 {
-    font-size: 5rem;
-  }
+ 
 }
