@@ -402,6 +402,8 @@ section {
   padding: 1rem;
   position: relative;
   z-index: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .rooms1::before {
@@ -438,7 +440,8 @@ section {
 }
 
 .rooms-grid {
-  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  /* etkisi yok gibi!!!! */
+  grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
   /* grid-gap: 3rem; */
   /*display: grid;
   grid-template-columns: 1fr 1fr 1fr; */
@@ -691,7 +694,7 @@ section {
 }
 
 .devremulk h1 {
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 5rem;
   /* background-color: #8f50fb; */
   padding: 1rem;
@@ -699,7 +702,7 @@ section {
 }
 
 .devremulk h2 {
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 3.5rem;
   /* background-color: #8f50fb; */
   text-align: center;
@@ -712,7 +715,7 @@ becasue there is no devremulk in html elements.
 Check the CSS for practice purposes!!! */
 .devremulk {
   text-align: center;
-  background-color: var(--purple-transparent-alt);
+  background-color: rgb(238, 205, 230);
   width: 100%;
   margin-bottom: 3rem;
   padding-bottom: 1rem;
@@ -756,7 +759,6 @@ Check the CSS for practice purposes!!! */
 /* All media queries are in this "stles.css" file for now.
 We may change this structure later. */
 @media screen and (max-width: 380px) {
-
 }
 
 @media screen and (min-width: 300px) and (max-width: 767px) {
@@ -770,11 +772,10 @@ We may change this structure later. */
     font-size: 2rem;
     /* width: 65%; */
   }
- 
 
   .main-heading {
     margin-bottom: 5px;
-    }
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1100px) {
@@ -864,10 +865,7 @@ We may change this structure later. */
     flex: 0 0 40%;
     margin-left: 2.5rem;
   }
-
- 
 }
-
 
 @media screen and (min-width: 1100px) {
   .title {
@@ -928,8 +926,6 @@ We may change this structure later. */
     color: var(--yellow-solid);
   }
 
-  
-
   .phone h3 {
     font-size: 3.1rem;
   }
@@ -947,6 +943,4 @@ We may change this structure later. */
   .traveler-wrap img {
     width: 80%;
   }
-
- 
 }
