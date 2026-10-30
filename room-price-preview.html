@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Oda Fiyatı — Yerel Önizleme</title>
+    <script src="./room-price-preview.js" defer></script>
+  </head>
+  <body>
+    <h1>Oda fiyatını düzenle</h1>
+
+    <form id="price-form">
+      <label for="nightly-price">
+        Oda başına gecelik başlangıç fiyatı (TL)
+      </label>
+
+      <input
+        id="nightly-price"
+        name="nightlyPrice"
+        type="number"
+        min="500"
+        step="1"
+        required
+        autofocus
+      />
+
+      <button type="submit">Fiyatı kontrol et</button>
+    </form>
+    <div>
+      <input id="contact-for-price" type="checkbox" />
+      <label for="contact-for-price">
+        Fiyat yerine iletişim mesajı göster
+      </label>
+    </div>  
+    <p id="price-preview" aria-live="polite"></p>
+  </body>
+</html>
