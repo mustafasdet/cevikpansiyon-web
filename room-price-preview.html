@@ -10,6 +10,9 @@
     <h1>Oda fiyatını düzenle</h1>
 
     <form id="price-form">
+      <label for="room-select">Oda seçin</label>
+      <select id="room-select" disabled></select>
+
       <label for="nightly-price">
         Oda başına gecelik başlangıç fiyatı (TL)
       </label>
@@ -24,7 +27,8 @@
         autofocus
       />
 
-      <button type="submit">Fiyatı kontrol et</button>
+      <button type="submit" id="preview-price">Fiyatı kontrol et</button>
+      <button type="submit" id="save-price" disabled>Fiyatı kaydet</button>
     </form>
     <div>
       <input id="contact-for-price" type="checkbox" />
